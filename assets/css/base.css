@@ -1,0 +1,18 @@
+:root {
+    --primary: #f9c06a;
+    --secondary: #603809;
+    --text: #707070;
+    --textblack: #1e1e1e;
+    --white: #ffffff;
+}
+html,
+body {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+}
+.wrapper {
+    max-width: 1180px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
