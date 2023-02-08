@@ -1,5 +1,5 @@
 header {
-    background-image: linear-gradient(89.82deg, #1e1e1e -6.88%, rgba(0, 0, 0, 0) 87.45%), url(/assets/image/coffee_image.png);
+    background-image: linear-gradient(89.82deg, #1e1e1e -6.88%, rgba(0, 0, 0, 0) 87.45%), url(./assets/image/coffee_image.png);
     background-size: cover;
     background-position: center;
     height: 768px;
