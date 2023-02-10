@@ -1,5 +1,5 @@
 header {
-    background-image: linear-gradient(89.82deg, #1e1e1e -6.88%, rgba(0, 0, 0, 0) 87.45%), url(./assets/image/coffee_image.png);
+    background-image: linear-gradient(89.82deg, #1e1e1e -6.88%, rgba(0, 0, 0, 0) 87.45%), url(/assets/image/coffee_image.png);
     background-size: cover;
     background-position: center;
     height: 768px;
@@ -81,4 +81,92 @@ header {
     font-size: 16px;
     line-height: 21px;
     text-align: center;
+    word-wrap: break-word;
+}
+
+/* Introduction */
+.intro {
+    display: flex;
+    margin-top: 82px;
+    min-height: 484px;
+}
+.intro-content {
+    max-width: 585px;
+    margin-right: 95px;
+    margin-top: calc(150px - 82px);
+}
+.intro-content h2 {
+    margin-bottom: 29px;
+}
+.intro-button {
+    margin-top: 29px;
+}
+.coffee-blast {
+    position: absolute;
+    left: 0px;
+    top: 330px;
+}
+main {
+    position: relative;
+}
+
+/* list-coffe */
+.list-coffee {
+    margin-top: 82px;
+    text-align: center;
+}
+.container-title {
+    color: var(--secondary);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 72px;
+}
+.container-desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+}
+.list-coffee h2 {
+    margin-bottom: 16px;
+}
+.coffee-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 32px;
+    margin-bottom: 100px;
+}
+.card {
+    background-color: #fff9f1;
+    border: 1px solid rgba(249, 192, 106, 0.42);
+    height: 364px;
+}
+.card-content h3 {
+    color: var(--secondary);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    margin-top: 14px;
+}
+.card-content-material {
+    margin-top: 6px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--textblack);
+}
+.card-content-price {
+    margin: 6px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #603809;
+}
+.card-button {
+    margin-top: 20px;
 }
