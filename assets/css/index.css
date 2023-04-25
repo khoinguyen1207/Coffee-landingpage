@@ -385,3 +385,95 @@ main {
         opacity: 1;
     }
 }
+
+/* Contract */
+.contract {
+    margin-top: 150px;
+    background-image: linear-gradient(rgba(96, 56, 9, 0.8), rgba(96, 56, 9, 0.8)), url(../image/Rectangle\ 14.png);
+    background-size: cover;
+    background-position: center;
+    height: 374px;
+    position: relative;
+}
+.contract-container {
+    padding: 80px 0;
+    text-align: center;
+    color: white;
+}
+
+.contract-container h2 {
+    padding-bottom: 16px;
+    color: white;
+}
+.contract-container span {
+    padding-bottom: 26px;
+    display: block;
+}
+.contract-form {
+    border-radius: 4px;
+    overflow: hidden;
+    height: 66px;
+    width: 642px;
+    margin: auto;
+    display: flex;
+}
+.input-contract {
+    width: 80%;
+
+    padding: 0 20px;
+    outline: none;
+    border: none;
+}
+.btn-subscribe {
+    width: 20%;
+    background-color: #f9c06a;
+    box-shadow: 0px 6px 12px rgba(249, 192, 106, 0.22);
+    border: none;
+}
+
+/* Footer */
+footer {
+    background-image: linear-gradient(rgba(68, 40, 8, 1), rgba(68, 40, 8, 0.5)), url(../image/fotter_image.png);
+    background-size: cover;
+    background-color: rgba(68, 40, 8, 1);
+    background-position: center;
+    position: relative;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 162px;
+    gap: 66px;
+    padding-bottom: 72px;
+}
+.footer-block {
+    color: white;
+    align-items: flex-end;
+}
+
+.footer-block:not(:first-child) {
+    flex: 0 0 18%;
+}
+
+.footer-block h3 {
+    padding-bottom: 20px;
+}
+.footer-block p {
+    padding: 20px 0;
+}
+.footer-block ul li {
+    padding-bottom: 16px;
+}
+.footer-icon i {
+    padding: 0 10px;
+}
+
+.coffee-wing1 {
+    position: absolute;
+    top: -250px;
+}
+.coffee-wing2 {
+    position: absolute;
+    top: -250px;
+    right: 0;
+}
